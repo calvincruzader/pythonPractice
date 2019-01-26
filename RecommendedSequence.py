@@ -5,6 +5,7 @@ class Solution:
 		d = list(d)
 
 
+
 		for c in s:
 			for i in range(len(ptrs)): 
 				# print(ptrs[i])
