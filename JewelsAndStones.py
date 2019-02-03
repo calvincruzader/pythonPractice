@@ -14,6 +14,6 @@ S = "aAAbbbbb"
 J = "aA"
 
 x = 0 
-x = 1 if True else False 
+x = 1 if True 
 
 print(x)
