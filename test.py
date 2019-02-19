@@ -1,12 +1,4 @@
-def cons(a, b):
-    def pair(f):
-        return f(a, b)
-    return pair
+x = [1] + [0] * 26 
 
-
-def car(pair): 
-	
-	return pair()
-
-print(car(cons(3,4)))
-
+print(x)
+print(len(x))
